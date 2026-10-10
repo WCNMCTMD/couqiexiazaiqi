@@ -1,0 +1,7 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0",
+  "url": "https://github.com/WCNMCTMD/couqiexiazaiqi/releases/download/v1.0/couqi-downloader-v1.0.apk",
+  "changelog": "首个公开版本：内置 6 站点（禁漫天堂 / 91 / HentaiPaw / cool18 / PornHub / Twitter-X），支持任务持久化、断点续传、Cronet 反爬。",
+  "minSupported": 1
+}
