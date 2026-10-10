@@ -4,6 +4,19 @@
 
 > ⚠️ **免责声明（务必先读）**：本项目仅供**技术学习与个人研究**使用。本项目**不提供、不存储、不中转任何受版权保护的内容**，仅提供技术工具。使用者需自行遵守所在国家/地区的法律法规，以及目标网站的服务条款；**任何实际下载行为的合规责任由使用者自负**。开发者不对任何使用后果承担责任。若您所在地区法律禁止访问/下载相关内容，请勿使用本项目。**请于下载后 24 小时内删除。** 本软件**不面向 18 岁以下用户**，且**不上架任何应用商店**（仅侧载分发）。如权利人认为本仓库功能侵权，请通过 **Issue 联系**，将及时处理。
 
+> 📌 **另请阅读：[NOTICE.md](NOTICE.md)** —— 关于本项目的**开发方式（AI 生成）、目标机型（以红米 / MIUI 为主测环境）与通用性说明**。
+
+## ⬇️ 下载
+
+| 项 | 地址 |
+|---|---|
+| 当前版本 | **v1.0**（`versionCode 1`） |
+| Release 页 | https://github.com/WCNMCTMD/couqiexiazaiqi/releases/tag/v1.0 |
+| APK 直链 | https://github.com/WCNMCTMD/couqiexiazaiqi/releases/download/v1.0/couqi-downloader-v1.0.apk |
+| 更新清单 `version.json` | https://raw.githubusercontent.com/WCNMCTMD/couqiexiazaiqi/main/version.json |
+
+> APK 体积约 22.8 MB，校验值 MD5：`fc63ced6955b5d63f04a963097dfad94`（仅 arm64-v8a）。
+
 ## ✨ 特性
 
 - **多站点支持**：内置 6 个站点的解析与下载逻辑，统一的下载管理体验
