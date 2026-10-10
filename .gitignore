@@ -1,0 +1,38 @@
+# ---- Android / Gradle ----
+*.iml
+.gradle
+build/
+/captures
+.externalNativeBuild
+.cxx
+.kotlin/
+.idea/
+
+# ---- 本地敏感配置（绝不入库）----
+local.properties
+# 签名密钥库：本地留存，不提交仓库
+keystore/
+*.jks
+*.keystore
+
+# ---- 构建产物 ----
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# ---- 备份 / 临时 ----
+.backup/
+.operit/
+*.log
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+# ---- \u5de5\u5177\u4e8c\u8fdb\u5236\uff08arm64 \u4e13\u7528\uff0c\u4e0d\u5165\u5e93\uff09----
+tools/aapt2/aapt2-arm64-v8a

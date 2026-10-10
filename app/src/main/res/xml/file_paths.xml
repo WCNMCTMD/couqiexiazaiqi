@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  FileProvider 可共享路径。
+  应用内更新（方案 B）下载的 APK 放在「应用外部私有目录 /update」下，
+  通过 content:// 安全暴露给系统安装器，避免暴露整个存储。
+-->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 应用外部私有目录：getExternalFilesDir(null)/update -->
+    <external-files-path name="update" path="update/" />
+    <!-- 兜底：应用内部私有目录下的 update（个别机型无外部存储时） -->
+    <files-path name="update_internal" path="update/" />
+</paths>
